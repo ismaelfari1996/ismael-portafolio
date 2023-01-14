@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ismael-portafolio/static/css/main.5807a113.css",
+    "main.js": "/ismael-portafolio/static/js/main.28667ffb.js",
+    "static/media/loadPageImage.jpg": "/ismael-portafolio/static/media/loadPageImage.26808f6e3039645a0016.jpg",
+    "static/media/ismael.jpg": "/ismael-portafolio/static/media/ismael.2825f47cafb3d328b840.jpg",
+    "index.html": "/ismael-portafolio/index.html",
+    "main.5807a113.css.map": "/ismael-portafolio/static/css/main.5807a113.css.map",
+    "main.28667ffb.js.map": "/ismael-portafolio/static/js/main.28667ffb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5807a113.css",
+    "static/js/main.28667ffb.js"
+  ]
+}

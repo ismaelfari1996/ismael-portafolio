@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../assets/ismael.jpg";
 export default function About() {
     return (
-        <div className="container container-fluid mb-5">
+        <div className="container container-fluid mb-5 bg-light">
             <div class="row">
                 <div class="col-md-6 align-items-lg-center">
                     <img src={Img} class="img-fluid d-flex mx-auto" alt="ismael" height={250} width={250} />

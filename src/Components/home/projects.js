@@ -13,9 +13,9 @@ export default function Project() {
     }, []);
 
     return (
-        <div className="container">
-            <div>
-                <h1>Portafolio</h1>
+        <div className="container mb-5">
+            <div className="mb-5">
+                <h1 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h1>
             </div>
             <div className="row">
                 {
@@ -27,7 +27,7 @@ export default function Project() {
                                     <div className="card-body">
                                         <div className="row" style={{ "minHeight": "150px" }}>
                                             <h5 className="card-title"> {project.name}</h5>
-                                            <p className="card-text">{project.description}</p>
+                                            <p className="card-text text-color">{project.description}</p>
                                         </div>
                                         <hr/>
                                         <div className="row mt-5">
@@ -47,7 +47,7 @@ export default function Project() {
                 }
                 {
                     // Carga los proyectos que se encuentran en GitHub
-                    Object.values(gitHubProjects).map((project, index) => {
+                    Object.values(gitHubProjects).slice(0,5).map((project, index) => {
                         return (
                             project.name === "ismaelfari1996" ? "" :
                                 <div key={index} className="col-md-6" data-aos="fade-right">
@@ -55,7 +55,7 @@ export default function Project() {
                                         <div className="card-body">
                                             <div className="row" style={{ "minHeight": "150px" }}>
                                                 <h5 className="card-title"> {project.name}</h5>
-                                                <p className="card-text">{project.description}</p>
+                                                <p className="card-text text-color">{project.description}</p>
                                             </div>
                                             <hr/>
                                             <Languages url={project.languages_url} />
@@ -98,7 +98,7 @@ const Languages = ({ url }) => {
     }
     return (
         lenguageValue.length ?
-            <div className="mb-2">Lenguajes: {
+            <div className="mb-2 text-color">Lenguajes: {
                 lenguageValue.map(value => {
                     return (
                         <>

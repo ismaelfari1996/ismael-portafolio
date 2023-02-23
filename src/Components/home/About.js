@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../assets/ismael.jpg";
 export default function About() {
     return (
-        <div className="container container-fluid mb-5 bg-light py-5" data-aos="flip-left"
+        <div className=" container-fluid mb-5 bg-light py-5" data-aos=""
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
             <div className="row">
@@ -21,8 +21,8 @@ export default function About() {
                 </div>
                 <div className="col-md-6 align-self-center">
                     <div className="card-body">
-                        <h2 className="card-title">Sobre mi</h2>
-                        <p className="card-text text-sm-justify my-3">
+                        <h2 className="card-title border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Sobre mi</h2>
+                        <p className="card-text text-sm-justify my-3 text-color" >
                             Bienvenido a mi sitio web, mi nombre es Ismael Farinango, soy Ingeniero de Sistemas y desarrollador de software.
                             Me apasiona la tecnología y la programación, y en este sitio podrás conocer más acerca de mi experiencia, habilidades y proyectos en los que he trabajado.
                             Estoy siempre en busca de nuevos desafíos y oportunidades para seguir aprendiendo y creciendo en mi campo.

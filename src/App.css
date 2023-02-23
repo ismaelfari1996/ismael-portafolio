@@ -19,6 +19,9 @@
   font-size: 22px;
  
 }
+.text-color{
+  color: #a6a6a6;
+}
 
 @media(max-width:770px){
   .space-mg{
@@ -31,10 +34,16 @@
   .introduction-text button{
      margin-top: 5%; /*Revisar*/
   }
+  .title-mg{
+    margin-left: 0px;
+  }
 }
 
 @media(max-width:550px){
   .introduction-text{
     padding-top: 50%;
+  }
+  .title-mg{
+    margin-left: 0px !important;
   }
 }

@@ -13,9 +13,11 @@ import MySql from "../../assets/icons/icon-mysql.png";
 import Postgresql from "../../assets/icons/icon-postgresql.png";
 export default function Skill() {
     return (
-        <div className="container-fluid mb-5">
-            <h1>Tecnologias que conozco</h1>
-            <div className=" mx-auto" style={{"maxWidth":"900px"}}>
+        <div className="container-fluid bg-light mb-5 pb-5">
+            <div className="mx-5 pt-5 mb-5 title-mg">
+                <h1 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Tecnologias que conozco</h1>
+            </div>
+            <div className=" mx-auto" style={{ "maxWidth": "900px" }}>
                 <div className="row" >
                     <div className="col-md-2 col-4">
                         <img className="img-fluid d-flex mx-auto" src={Java} alt="Java" />

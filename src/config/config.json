@@ -4,5 +4,13 @@
         "name":"sysontec",
         "url":"https://sysontec.github.io/sysontec/",
         "description":"Página web estática de información, construida con React Js."
-    }}
+    }},
+    "contact":{
+        "facebook":"",
+        "linkedin":"",
+        "whatsapp":"",
+        "github":"",
+        "instagram":"",
+        "email":"ismael.farinango@hotmail.com"
+    }
 }

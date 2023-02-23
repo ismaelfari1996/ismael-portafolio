@@ -1,3 +1,8 @@
 {
-    "git":"https://api.github.com/users/ismaelfari1996/repos?sort=updated&direction=desc"
+    "git":"https://api.github.com/users/ismaelfari1996/repos?sort=updated&direction=desc",
+    "projects":{"project":{
+        "name":"sysontec",
+        "url":"https://sysontec.github.io/sysontec/",
+        "description":"Página web estática de información, construida con React Js."
+    }}
 }

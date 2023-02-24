@@ -1,12 +1,13 @@
 import React from "react";
+import ConfigValue from "../../config/config.json";
 export default function Contact() {
 
     const openEmailApplication=()=>{
-        window.open("mailto:ismael.farinango@hotmail.com");
+        window.open("mailto:"+ConfigValue.contact.email);
     }
 
     return (
-        <div className="container-fluid d-flex justify-content-center mb-5" style={{"background":"#ffffff"}} >
+        <div className="container-fluid d-flex justify-content-center mb-5" id="contact" style={{"background":"#ffffff"}} >
             <div class="card m-3 px-3 border-0" >
                 <div class="row g-0">
                     <div class="col-md-8 py-2">
@@ -26,10 +27,10 @@ export default function Contact() {
                             <span className="d-block mb-3 text-color"><i class="las la-map-marker-alt fs-2"></i> Quito, Ecuador</span>
                             <span className="d-block fw-bold">Ponerse en contacto</span>
                             <div className="d-flex mx-auto justify-content-left">
-                                <i className="lab la-whatsapp icon "></i>
-                                <i className="lab la-linkedin icon"></i>
-                                <i className="lab la-facebook-square icon"></i>
-                                <i className="lab la-instagram icon"></i>
+                               <a href={ConfigValue.contact.whatsapp} target={"_blank"}> <i className="lab la-whatsapp icon "></i> </a>
+                               <a href={ConfigValue.contact.linkedin} target={"_blank"}> <i className="lab la-linkedin icon"></i> </a>
+                               <a href={ConfigValue.contact.facebook} target={"_blank"}> <i className="lab la-facebook-square icon"></i> </a>
+                               <a href={ConfigValue.contact.instagram} target={"_blank"}><i className="lab la-instagram icon"></i> </a>
                             </div>
                         </div>
                     </div>

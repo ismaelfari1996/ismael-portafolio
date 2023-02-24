@@ -13,7 +13,7 @@ export default function Project() {
     }, []);
 
     return (
-        <div className="container mb-5">
+        <div className="container mb-5" id="projects">
             <div className="mb-5">
                 <h1 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h1>
             </div>

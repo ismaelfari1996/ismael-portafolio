@@ -28,7 +28,7 @@ export default function Landingpage() {
     }
 
     return (
-        <div className="container mt-0 min-vh-100 " >
+        <div className="container mt-0 min-vh-100 " id="home">
             <div className="row d-flex">
                 <div className="col-md-6 col-sm-6 align-items-center introduction-text d-block ">
                     <p>Hola, mi nombre es</p>
@@ -36,7 +36,7 @@ export default function Landingpage() {
                     <h1 style={{"color":"#a6a6a6"}}>Desarrollador de Software.</h1>
                     <p style={{"color":"#a6a6a6"}}>Soy Ingeniero en Sistemas, me apasionado la tecnología y la programación, 
                       siempre estoy abierto a nuevas propuestas y retos dentro de la industria.</p>
-                    <button className="btn btn-primary mt-5">Trabajemos juntos</button>
+                    <a className="btn btn-primary mt-5" href="#contact">Trabajemos juntos</a>
                 </div>
                 <div className="col-md-6 col-sm-6  d-flex align-items-center py-5 d-none d-sm-block ">
                     <img src={LoadImg} alt="Imagen" className="img-fluid py-4" />

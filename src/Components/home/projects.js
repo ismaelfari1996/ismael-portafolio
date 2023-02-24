@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Config from "../../config/config.json";
 export default function Project() {
     const [gitHubProjects, setGitHubprojects] = new useState([]);
+    const [slice, setSlice]=new useState(5);
     //Consume la API de Github
     useEffect(() => {
         axios.get(Config.git) //La url se encuentra configurado en config.json
@@ -47,7 +48,7 @@ export default function Project() {
                 }
                 {
                     // Carga los proyectos que se encuentran en GitHub
-                    Object.values(gitHubProjects).slice(0,5).map((project, index) => {
+                    Object.values(gitHubProjects).slice(0,slice).map((project, index) => {
                         return (
                             project.name === "ismaelfari1996" ? "" :
                                 <div key={index} className="col-md-6" data-aos="fade-right">
@@ -78,6 +79,10 @@ export default function Project() {
                     })
                 }
             </div>
+            <button className="btn d-flex mx-auto align-items-center border border-primary more-text"
+            onClick={ev=>{
+                setSlice(gitHubProjects.length);
+            }}> Ver mas <i class="las la-angle-double-down fs-3"></i></button>
         </div>
     )
 }

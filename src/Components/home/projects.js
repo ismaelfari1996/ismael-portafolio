@@ -33,7 +33,7 @@ export default function Project() {
                                         <hr/>
                                         <div className="row mt-5">
                                             <div className="col-md-12">
-                                                <a href={project.url} className="btn btn-outline-primary d-flex mx-auto align-items-center" target={'_blank'}>
+                                                <a href={project.url} className="btn btn-outline-primary d-flex mx-auto align-items-center" target={'_blank'} rel="noopener noreferrer">
                                                     <i className="las la-external-link-alt"></i> Visitar</a>
                                             </div>
 
@@ -63,11 +63,11 @@ export default function Project() {
                                             
                                             <div className="row ">
                                                 <div className="col-md-6">
-                                                    <a href={project.html_url} className="btn btn-outline-primary d-flex mx-auto align-items-center" target={'_blank'}>
+                                                    <a href={project.html_url} className="btn btn-outline-primary d-flex mx-auto align-items-center" target={'_blank'} rel="noopener noreferrer">
                                                         <i className="lab la-github icon-git"></i>  Repositorio</a>
                                                 </div>
                                                 <div className="col-md-6 space-mg">
-                                                    <a href={project.svn_url + "/archive/master.zip"} className="btn btn-outline-primary d-flex mx-auto align-items-center text-center" target="_blank">
+                                                    <a href={project.svn_url + "/archive/master.zip"} className="btn btn-outline-primary d-flex mx-auto align-items-center text-center" target="_blank" rel="noopener noreferrer">
                                                         <i className="las la-cloud-download-alt icon-git"></i>  Clonar</a>
                                                 </div>
                                             </div>

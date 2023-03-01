@@ -17,7 +17,7 @@ export default function Contact() {
                                 no dudes en contactarme.</p>
                                 <button className="btn btn-primary d-flex align-items-center"
                                 onClick={openEmailApplication}>
-                                    Enviar un mensage <i class="lar la-paper-plane fs-3"></i>
+                                    Enviar un mensage <i class="las la-paper-plane fs-3"></i>
                                 </button>
                         </div>
                     </div>
@@ -27,10 +27,10 @@ export default function Contact() {
                             <span className="d-block mb-3 text-color"><i class="las la-map-marker-alt fs-2"></i> Quito, Ecuador</span>
                             <span className="d-block fw-bold">Ponerse en contacto</span>
                             <div className="d-flex mx-auto justify-content-left">
-                               <a href={ConfigValue.contact.whatsapp} target={"_blank"}> <i className="lab la-whatsapp icon "></i> </a>
-                               <a href={ConfigValue.contact.linkedin} target={"_blank"}> <i className="lab la-linkedin icon"></i> </a>
-                               <a href={ConfigValue.contact.facebook} target={"_blank"}> <i className="lab la-facebook-square icon"></i> </a>
-                               <a href={ConfigValue.contact.instagram} target={"_blank"}><i className="lab la-instagram icon"></i> </a>
+                               <a href={ConfigValue.contact.whatsapp} target={"_blank"} rel="noopener noreferrer" aria-label="Whatsapp"> <i className="lab la-whatsapp icon "></i> </a>
+                               <a href={ConfigValue.contact.linkedin} target={"_blank"} rel="noopener noreferrer" aria-label="Linkedin"> <i className="lab la-linkedin icon"></i> </a>
+                               <a href={ConfigValue.contact.facebook} target={"_blank"} rel="noopener noreferrer" aria-label="Facebook"> <i className="lab la-facebook-square icon"></i> </a>
+                               <a href={ConfigValue.contact.instagram} target={"_blank"} rel="noopener noreferrer" aria-label="Instagram"><i className="lab la-instagram icon"></i> </a>
                             </div>
                         </div>
                     </div>

@@ -1,31 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import LoadImg from "../../assets/loadPageImage1.png";
 export default function Landingpage() {
-
-    const typed = ({ text }) => {
-        const [currentText, setCurrentText] = useState('');
-        let index = 0;
-      
-        useEffect(() => {
-          let interval;
-          if (index < text.length) {
-            interval = setInterval(() => {
-              setCurrentText(text.slice(0, index));
-              index++;
-              if(index==text.length){
-                index=0;
-              }
-            }, 150);
-          } else {
-            clearInterval(interval);
-          }
-          return () => clearInterval(interval);
-        }, [text, index]);
-
-        
-        return <span>{currentText}</span>;
-    }
 
     return (
         <div className="container mt-0 min-vh-100 " id="home">

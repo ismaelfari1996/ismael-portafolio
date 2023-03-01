@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Img from "../../assets/ismael.jpg";
 import ConfigValue from "../../config/config.json";
 export default function About() {
@@ -14,10 +13,10 @@ export default function About() {
                         <h2 className="d-flex mx-auto">Ismael Farinango</h2>
                         <span className="d-flex mx-auto">Ingeniero de Sistemas</span>
                         <div className="d-flex mx-auto">
-                            <a href={ConfigValue.contact.github} target={"_blank"}><i className="lab la-github icon"></i></a>
-                            <a href={ConfigValue.contact.linkedin} target={"_blank"} ><i className="lab la-linkedin icon"></i></a>
-                            <a href={ConfigValue.contact.facebook} target={"_blank"} ><i className="lab la-facebook-square icon"></i></a>
-                            <a href={ConfigValue.contact.instagram} target={"_blank"} ><i className="lab la-instagram icon"></i></a>
+                            <a href={ConfigValue.contact.github} target={"_blank"} rel="noopener noreferrer" aria-label="Github"><i className="lab la-github icon"></i></a>
+                            <a href={ConfigValue.contact.linkedin} target={"_blank"} rel="noopener noreferrer" aria-label="Linkedin" ><i className="lab la-linkedin icon"></i></a>
+                            <a href={ConfigValue.contact.facebook} target={"_blank"} rel="noopener noreferrer" aria-label="Facebook"><i className="lab la-facebook-square icon"></i></a>
+                            <a href={ConfigValue.contact.instagram} target={"_blank"} rel="noopener noreferrer" aria-label="Instagram"><i className="lab la-instagram icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +31,7 @@ export default function About() {
                             Gracias por visitar mi sitio web.
                         </p>
                         <div className="d-flex mx-auto my-5">
-                            <a className="btn btn-primary" href={ConfigValue.cv} target={"_blank"}> <i class="las la-cloud-download-alt"></i> Download CV</a>
+                            <a className="btn btn-primary" href={ConfigValue.cv} target={"_blank"} rel="noopener noreferrer"> <i class="las la-cloud-download-alt"></i> Download CV</a>
                             <a className="btn btn-primary ms-4" href="#projects">Portafolio</a>
                         </div>
                     </div>

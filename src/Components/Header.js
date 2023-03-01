@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
-                <img src={Logo} className="img img-fluid" style={{"width":"30px","height":"30px"}}/>
+                <img src={Logo} className="img img-fluid" style={{"width":"30px","height":"30px"}} alt="ismael-logo" />
                 <a className="navbar-brand mx-2" href="#home">{"Isamel"}</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@ export default function Header() {
                             <a className="nav-link" href="#contact">Contactos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={ConfigValue.cv} target={"_blank"}><i class="las la-cloud-download-alt"></i> CV</a>
+                            <a className="nav-link" href={ConfigValue.cv} target={"_blank"} rel="noopener noreferrer"><i class="las la-cloud-download-alt"></i> CV</a>
                         </li>
                     </ul>
                 </div>

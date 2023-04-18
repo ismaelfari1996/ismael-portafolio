@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b8795bd4d09c7e88af25",
-    "url": "/ismael-portafolio/static/css/main.24bc1cce.chunk.css"
+    "revision": "c51f069fde24884f75c7",
+    "url": "/ismael-portafolio/static/css/main.bff30b37.chunk.css"
   },
   {
-    "revision": "b8795bd4d09c7e88af25",
-    "url": "/ismael-portafolio/static/js/main.b8795bd4.chunk.js"
+    "revision": "c51f069fde24884f75c7",
+    "url": "/ismael-portafolio/static/js/main.c51f069f.chunk.js"
   },
   {
     "revision": "b015c38d4cd7461cc13a",
@@ -16,15 +16,15 @@ self.__precacheManifest = [
     "url": "/ismael-portafolio/static/js/runtime~main.a7918f86.js"
   },
   {
-    "revision": "72cfdf54fb59cad47a3bb7006c8456cc",
-    "url": "/ismael-portafolio/static/media/ismael.72cfdf54.jpg"
+    "revision": "9f0feda25baf05a1b12d1cda15d9e874",
+    "url": "/ismael-portafolio/static/media/profile.9f0feda2.jpg"
   },
   {
     "revision": "3950a47b209edb4c5d23fb69f0535f72",
     "url": "/ismael-portafolio/static/media/loadPageImage1.3950a47b.png"
   },
   {
-    "revision": "89b0403467ea840926aad351b972a836",
+    "revision": "a15874556f4730131c55c6644818293a",
     "url": "/ismael-portafolio/index.html"
   }
 ];

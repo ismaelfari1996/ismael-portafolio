@@ -6,12 +6,14 @@ import Contact from "./Contact"
 import Landingpage from "./Landingpage"
 import Project from "./projects"
 import Skill from "./Skill"
+import Service from "./Service"
 export default function HomePage(){
     return(
         <>
         <Header/>
         <Landingpage/>
         <About/>
+        <Service/>
         <Project/>
         <Skill/>
         <Contact/>

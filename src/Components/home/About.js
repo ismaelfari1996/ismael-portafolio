@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/ismael.jpg";
+import Img from "../../assets/profile.jpg";
 import ConfigValue from "../../config/config.json";
 export default function About() {
     return (

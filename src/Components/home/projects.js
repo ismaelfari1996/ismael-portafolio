@@ -112,6 +112,6 @@ const Languages = ({ url }) => {
                         </>
                     )
                 })}
-            </div> : ""
+            </div> : <div className="mb-2 text-color">Lenguajes: <strong>No especificado</strong></div>
     )
 }

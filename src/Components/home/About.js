@@ -32,7 +32,7 @@ export default function About() {
                         </p>
                         <div className="d-flex mx-auto my-5">
                             <a className="btn btn-primary" href={ConfigValue.cv} target={"_blank"} rel="noopener noreferrer"> <i class="las la-cloud-download-alt"></i> Download CV</a>
-                            <a className="btn btn-primary ms-4" href="#projects">Portafolio</a>
+                            <a className="btn btn-primary ms-4" href="#projects"><i class="las la-briefcase fs-5"></i> Portafolio</a>
                         </div>
                     </div>
                 </div>

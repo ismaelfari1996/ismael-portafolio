@@ -1,5 +1,11 @@
 import React from "react";
 
+
+/**
+* Renders Footer with icons. It's used to display footer on top of page.
+* 
+*/
+
 export default function Footer(){
     return(
         <div className="container-fluid p-3 border d-flex bg-light">

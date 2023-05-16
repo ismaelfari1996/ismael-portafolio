@@ -22,6 +22,9 @@ export default function Header() {
                             <a className="nav-link" href="#projects">Portafolio</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#services">Servicios</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#skill">Skill</a>
                         </li>
                         <li className="nav-item">

@@ -1,9 +1,17 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Config from "../../config/config.json";
 export default function Project() {
     const [gitHubProjects, setGitHubprojects] = new useState([]);
     const [slice, setSlice]=new useState(5);
+    const [showMore, setShowMore]=new useState(true);
+    const seccionRef=new useRef(null);
+
+    // Funcion que redirige a una seccion especifica de la pagina
+    const scrollToSeccion=()=>{
+        seccionRef.current.scrollIntoView({"behavior":"smooth"});
+    }
+
     //Consume la API de Github
     useEffect(() => {
         axios.get(Config.git) //La url se encuentra configurado en config.json
@@ -16,7 +24,7 @@ export default function Project() {
     return (
         <div className="container mb-5" id="projects">
             <div className="mb-5">
-                <h1 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h1>
+                <h1 ref={seccionRef} className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h1>
             </div>
             <div className="row">
                 {
@@ -60,7 +68,7 @@ export default function Project() {
                                             </div>
                                             <hr/>
                                             <Languages url={project.languages_url} />
-                                            
+                            
                                             <div className="row ">
                                                 <div className="col-md-6">
                                                     <a href={project.html_url} className="btn btn-outline-primary d-flex mx-auto align-items-center" target={'_blank'} rel="noopener noreferrer">
@@ -81,8 +89,13 @@ export default function Project() {
             </div>
             <button className="btn d-flex mx-auto align-items-center border border-primary more-text"
             onClick={ev=>{
-                setSlice(gitHubProjects.length);
-            }}> Ver mas <i class="las la-angle-double-down fs-3"></i></button>
+                showMore?
+                setSlice(gitHubProjects.length):setSlice(5);
+                setShowMore(showMore?false:true);
+                if(showMore===false){
+                    scrollToSeccion();
+                }
+            }}> {showMore?"Ver mas":"Ver menos"} <i class={showMore?"las la-angle-double-down fs-3":"las la-angle-double-up fs-3"}></i></button>
         </div>
     )
 }

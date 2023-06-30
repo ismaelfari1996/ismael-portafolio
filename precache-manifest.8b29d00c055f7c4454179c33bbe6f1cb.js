@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ismael-portafolio/static/media/loadPageImage1.dba33709.webp"
   },
   {
-    "revision": "a3aa33e637513cd0644a6b314255a812",
+    "revision": "cbed5fa8c6d8963bf42ec7276a4891fa",
     "url": "/ismael-portafolio/index.html"
   }
 ];

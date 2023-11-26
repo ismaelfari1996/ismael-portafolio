@@ -1,17 +1,24 @@
 {
-    "git":"https://api.github.com/users/ismaelfari1996/repos?sort=updated&direction=desc",
-    "projects":{"project":{
-        "name":"sysontec",
-        "url":"https://sysontec.github.io/sysontec/",
-        "description":"Página web estática de información, construida con React Js."
-    }},
-    "contact":{
-        "facebook":"https://www.facebook.com/afsoftware96",
-        "linkedin":"https://www.linkedin.com/in/abel-farinango-40021321a",
-        "whatsapp":"https://api.whatsapp.com/send?phone=593999545984&amp;text=Hola,%20¿Cómo%20podemos%20ayudarte?",
-        "github":"https://github.com/ismaelfari1996",
-        "instagram":"https://www.instagram.com/ismaelfari96/",
-        "email":"ismael.farinango@hotmail.com"
+    "git": "https://api.github.com/users/ismaelfari1996/repos?sort=updated&direction=desc",
+    "projects": {
+        "sysontec": {
+            "name": "sysontec",
+            "url": "https://sysontec.github.io/sysontec/",
+            "description": "Página web estática de información, construida con React Js."
+        },
+        "JELECTRIC": {
+            "name":"JELECTRIC",
+            "url":"https://israelfarinango.github.io/jelectric/",
+            "description":"Pagina web que oferta los servicios de electricidad, integrado con la aplicación de mesageria WhatsApp. Construida con React JS y Boostrap 5."
+        }
     },
-    "cv":"https://drive.google.com/file/d/1sh69l-dXehLJ7G-j92ymNpNjMbpcmR-a/view?usp=share_link"
+    "contact": {
+        "facebook": "https://www.facebook.com/afsoftware96",
+        "linkedin": "https://www.linkedin.com/in/abel-farinango-40021321a",
+        "whatsapp": "https://api.whatsapp.com/send?phone=593999545984&amp;text=Hola,%20¿Cómo%20podemos%20ayudarte?",
+        "github": "https://github.com/ismaelfari1996",
+        "instagram": "https://www.instagram.com/ismaelfari96/",
+        "email": "ismael.farinango@hotmail.com"
+    },
+    "cv": "https://drive.google.com/file/d/1sh69l-dXehLJ7G-j92ymNpNjMbpcmR-a/view?usp=share_link"
 }

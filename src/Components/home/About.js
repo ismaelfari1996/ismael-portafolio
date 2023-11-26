@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/profile.jpg";
+import Img from "../../assets/ismael.webp";
 import ConfigValue from "../../config/config.json";
 export default function About() {
     return (
@@ -8,7 +8,7 @@ export default function About() {
             data-aos-duration="2000">
             <div className="row">
                 <div className="col-md-6 align-items-lg-center">
-                    <img src={Img} className="img-fluid d-flex mx-auto" alt="ismael" height={200} width={200} />
+                    <img src={Img} className="img-fluid d-flex mx-auto" alt="ismael" height={300} width={300} />
                     <div className="d-flex flex-column">
                         <h2 className="d-flex mx-auto">Ismael Farinango</h2>
                         <span className="d-flex mx-auto">Ingeniero de Sistemas</span>

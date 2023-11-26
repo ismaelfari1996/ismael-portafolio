@@ -23,7 +23,7 @@ export default function Contact() {
                     </div>
                     <div class="col-md-4 py-3">
                         <div class="card-body">
-                            <h4 className="card-title"> Información de contacto</h4>
+                            <h3 className="card-title fs-4"> Información de contacto</h3>
                             <span className="d-block mb-3 text-color"><i class="las la-map-marker-alt fs-2"></i> Quito, Ecuador</span>
                             <span className="d-block fw-bold">Ponerse en contacto</span>
                             <div className="d-flex mx-auto justify-content-left">

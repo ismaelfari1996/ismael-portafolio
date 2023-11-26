@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Config from "../../config/config.json";
 export default function Project() {
     const [gitHubProjects, setGitHubprojects] = new useState([]);
-    const [slice, setSlice]=new useState(5);
+    const [slice, setSlice]=new useState(4);
     const [showMore, setShowMore]=new useState(true);
     const seccionRef=new useRef(null);
 
@@ -24,7 +24,7 @@ export default function Project() {
     return (
         <div className="container mb-5" id="projects">
             <div className="mb-5">
-                <h1 ref={seccionRef} className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h1>
+                <h2 ref={seccionRef} className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Portafolio</h2>
             </div>
             <div className="row">
                 {
@@ -35,7 +35,7 @@ export default function Project() {
                                 <div className="card shadow-lg p-3 mb-5 bg-white rounded card" style={{ "minHeight": "320px" }}>
                                     <div className="card-body">
                                         <div className="row" style={{ "minHeight": "150px" }}>
-                                            <h5 className="card-title"> {project.name}</h5>
+                                            <h3 className="card-title fw-bold fs-5"> {project.name}</h3>
                                             <p className="card-text text-color">{project.description}</p>
                                         </div>
                                         <hr/>
@@ -63,7 +63,7 @@ export default function Project() {
                                     <div className="card shadow-lg p-3 mb-5 bg-white rounded card" style={{ "minHeight": "320px" }}>
                                         <div className="card-body">
                                             <div className="row" style={{ "minHeight": "150px" }}>
-                                                <h5 className="card-title"> {project.name}</h5>
+                                                <h3 className="card-title fw-bold fs-5"> {project.name}</h3>
                                                 <p className="card-text text-color">{project.description}</p>
                                             </div>
                                             <hr/>

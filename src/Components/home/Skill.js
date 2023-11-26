@@ -15,7 +15,7 @@ export default function Skill() {
     return (
         <div className="container-fluid bg-light mb-5 pb-5" id="skill">
             <div className="mx-5 pt-5 mb-5 title-mg">
-                <h1 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Skill</h1>
+                <h2 className="border border-4 border-end-0 border-top-0 border-bottom-0 px-2">Skill</h2>
             </div>
             <div className=" mx-auto" style={{ "maxWidth": "900px" }}>
                 <div className="row" >

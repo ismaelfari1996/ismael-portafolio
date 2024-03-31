@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ismael-portafolio/precache-manifest.c1ae841faa0f7423a345074b3b9cd2e6.js"
+  "/ismael-portafolio/precache-manifest.be7f48738acef938f9879f1660a046f3.js"
 );
 
 workbox.clientsClaim();

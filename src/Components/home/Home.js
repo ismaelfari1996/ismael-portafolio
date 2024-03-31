@@ -7,6 +7,7 @@ import Landingpage from "./Landingpage"
 import Project from "./projects"
 import Skill from "./Skill"
 import Service from "./Service"
+import Wsp from "../watsapp/whatsapp"
 export default function HomePage(){
     return(
         <>
@@ -17,6 +18,7 @@ export default function HomePage(){
         <Project/>
         <Skill/>
         <Contact/>
+        <Wsp/>
         <Footer/>
         </>
     )

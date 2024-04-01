@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "458700d77c27871215d1",
+    "revision": "e7b77230fde3683ddc25",
     "url": "/ismael-portafolio/static/css/main.57c59c7e.chunk.css"
   },
   {
-    "revision": "458700d77c27871215d1",
-    "url": "/ismael-portafolio/static/js/main.458700d7.chunk.js"
+    "revision": "e7b77230fde3683ddc25",
+    "url": "/ismael-portafolio/static/js/main.e7b77230.chunk.js"
   },
   {
     "revision": "52a14ed1b16ac8ac7ea7",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ismael-portafolio/static/media/loadPageImage1.dba33709.webp"
   },
   {
-    "revision": "dc2f62deaf2f434c662406efb03b513e",
+    "revision": "7f7e8bb4b275cf1383910c1d8f2f51a2",
     "url": "/ismael-portafolio/index.html"
   }
 ];

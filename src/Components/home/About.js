@@ -14,7 +14,8 @@ export default function About() {
                         <h2 className="d-flex mx-auto">Ismael Farinango</h2>
                         <span className="d-flex mx-auto">Ingeniero de Sistemas</span>
                         <div className="d-flex mx-auto">
-                            <a href={ConfigValue.contact.tiktok} target={"_blank"} rel="noopener noreferrer" aria-label="TikTok" className="m-auto" ><img style={{"width":"40px","height":"40px"}} src={IconTikTok}/></a>
+                            <a href={ConfigValue.contact.tiktok} target={"_blank"} rel="noopener noreferrer" aria-label="TikTok" className="m-auto" ><img style={{"width":"40px","height":"40px"}}
+                            alt="tiktok" src={IconTikTok}/></a>
                             <a href={ConfigValue.contact.github} target={"_blank"} rel="noopener noreferrer" aria-label="Github"><i className="lab la-github icon"></i></a>
                             <a href={ConfigValue.contact.linkedin} target={"_blank"} rel="noopener noreferrer" aria-label="Linkedin" ><i className="lab la-linkedin icon"></i></a>
                             <a href={ConfigValue.contact.facebook} target={"_blank"} rel="noopener noreferrer" aria-label="Facebook"><i className="lab la-facebook-square icon"></i></a>
